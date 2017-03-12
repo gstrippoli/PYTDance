@@ -1,0 +1,183 @@
+
+/* Universal Styles */
+html {
+    font-size: 16px;
+}
+
+
+
+/* Header Section */
+header {
+  background-color: #000;
+  height: 3.875rem;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  margin-top: 0;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  margin-left: 3.6875rem;
+  height: 50px;
+
+}
+
+header .logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  text-align: right;
+  flex: 1;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 3.4375rem;
+}
+
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+/* Card Order Section */
+#order-section {
+  background-image: url("../Resources/Images/dancers-photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3.875rem;
+  display: flex;
+  height: 50rem;
+  width: 0 auto;
+}
+
+#order-card .content {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  width: 45rem;
+  justify-content: center;
+  margin-top: 9.4375rem;
+  text-align: center;
+  padding-left: 35rem;
+}
+
+#order-card h1 {
+  font-size: 3.125rem;
+  line-height: 1;
+}
+
+#order-card p {
+  padding-top: 2.6875rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Order Course Card Button */
+.button {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.25rem;
+  border-radius: 2px;
+  margin-top: 30rem;
+  background-color: #f5a623;
+  width: 15rem;
+  height: 2.5rem;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button a:hover {
+  color: purple;
+}
+
+ /* First Blog Section Section */
+#blog-section-1 {
+  background-image: url("../Resources/Images/graffiti-photo.png");
+  height: 31.25rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog-content-box-1, .blog-content-box-3 {
+  display: flex;
+  background-color: rgba(120, 73, 225, 0.9);
+  height: 20rem;
+  width: 25rem;
+  float: right;
+  margin-top: 11.25rem;
+}
+
+.blog-content-box-2 {
+  display: flex;
+  background-color: rgba(173, 74, 225, 0.9);
+  height: 20rem;
+  width: 25rem;
+  float: right;
+  margin-top: 11.25rem;
+}
+
+.blog-content {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 5rem;
+  padding-left: 3rem;
+}
+
+.blog-content h2 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+
+}
+
+.blog-content p {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  padding-top: 1.25rem;
+}
+
+.blog-content a {
+  padding-top: 1.25rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+/*Second Blog Section */
+#blog-section-2 {
+  background-image: url("../Resources/Images/fire-photo.png");
+  height: 31.25rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Third Blog Section */
+#blog-section-3 {
+  background-image: url("../Resources/Images/jump-photo.png");
+  height: 31.25rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
