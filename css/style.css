@@ -4,32 +4,6 @@ html {
     font-size: 16px;
 }
 
-
-
-/* Header Section */
-header {
-  background-color: #000;
-  height: 3.875rem;
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  margin-top: 0;
-}
-
-header .content {
-  display: flex;
-  align-items: center;
-  margin-left: 3.6875rem;
-  height: 50px;
-
-}
-
-header .logo {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
-
 nav {
   text-align: right;
   flex: 1;
@@ -50,6 +24,32 @@ nav ul li a {
 nav ul li a:hover {
   color: purple;
 }
+
+/* Header Section */
+header {
+  background-color: #000;
+  height: 3.875rem;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  margin-top: 0;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  margin-left: 3.6875rem;
+  height: 50px;
+}
+
+header .logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+
 
 /* Card Order Section */
 #order-section {
@@ -76,6 +76,7 @@ nav ul li a:hover {
 }
 
 #order-card h1 {
+  display: flex;
   font-size: 3.125rem;
   line-height: 1;
 }
@@ -109,15 +110,7 @@ nav ul li a:hover {
   color: purple;
 }
 
- /* First Blog Section Section */
-#blog-section-1 {
-  background-image: url("../Resources/Images/graffiti-photo.png");
-  height: 31.25rem;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
+/* Universal Blog Section Styles */
 .blog-content-box-1, .blog-content-box-3 {
   display: flex;
   background-color: rgba(120, 73, 225, 0.9);
@@ -147,7 +140,6 @@ nav ul li a:hover {
 .blog-content h2 {
   font-size: 2.25rem;
   line-height: 1.2;
-
 }
 
 .blog-content p {
@@ -163,6 +155,18 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
+.blog-content a:hover {
+  color: purple;
+}
+
+/* First Blog Section Section */
+#blog-section-1 {
+ background-image: url("../Resources/Images/graffiti-photo.png");
+ height: 31.25rem;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
 
 /*Second Blog Section */
 #blog-section-2 {
@@ -180,4 +184,53 @@ nav ul li a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+footer {
+  display: inline-block;
+  background-image: url("../Resources/Images/party-photo.png");
+  height: 18.125rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+  width: 100%;
+}
+
+footer .footer-logo {
+  position: absolute;
+  height: 3.125rem;
+  margin-left: 3.6875rem;
+
+}
+
+footer .social-media {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 9.375rem;
+  color: white;
+  height: 3.125rem;
+  margin-top: auto 0;
+  margin-left: 55rem;
+}
+
+footer h5 {
+  position: absolute;
+  height: 3.125rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1rem;
+  margin-left: 95rem;
+}
+
+footer .company-info {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: .875rem;
+  letter-spacing: 0.7px;
+  line-height: 1.4rem;
 }
