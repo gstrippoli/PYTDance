@@ -1,0 +1,150 @@
+
+.classes-main {
+  background-image: url("../Resources/Images/classes-photo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 40rem;
+  width: 0 auto;
+}
+
+.classes-headline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.classes-headline h1 {
+  width: 10rem;
+  color: rgba(174, 75, 227, 0.9);
+  display: flex;
+  font-size: 3.125rem;
+  line-height: 1;
+  margin-left: 85rem;
+  margin-top: 10rem;
+}
+
+.classes-headline p {
+  position: relative;
+  display: flex;
+  text-align: center;
+  margin-left: 76.7rem;
+  width: 30rem;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+}
+
+.class-schedule {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 5.3125rem;
+  margin-bottom: 2.4rem;
+  margin-left: 1.125rem;
+  margin-right: 1.125rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.exercise {
+  width: 25rem;
+  margin-top: 3.75rem;
+}
+.exercise h3 {
+  color: rgba(174, 75, 227, 0.9);
+  font-size: 1.875rem;
+  padding-bottom: 1.125rem;
+}
+
+.exercise h4 {
+  font-size: 1.125rem;
+  padding-bottom: 1.125rem;
+}
+
+.exercise h6 {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: 1.125rem;
+}
+.exercise p {
+  font-size: .875rem;
+  line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  display: inline-block;
+  background-image: url("../Resources/Images/party-photo.png");
+  height: 18.125rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+  width: 100%;
+}
+
+footer .footer-logo {
+  position: absolute;
+  height: 3.125rem;
+  margin-left: 3.6875rem;
+
+}
+
+footer .social-media {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 9.375rem;
+  color: white;
+  height: 3.125rem;
+  margin-top: auto 0;
+  margin-left: 55rem;
+}
+
+footer h5 {
+  position: absolute;
+  height: 3.125rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1rem;
+  margin-left: 95rem;
+}
+
+footer .company-info {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: .875rem;
+  letter-spacing: 0.7px;
+  line-height: 1.4rem;
+}
