@@ -1,0 +1,109 @@
+
+/* About Us Container */
+.about-us-main {
+  display: flex;
+  height: 40rem;
+  width: 100%;
+  border-bottom: 10px solid #794ae2;
+}
+
+.about-us-image {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.about-us-image img {
+  height: 100%;
+}
+
+.about-us-headline {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  margin-left: 60rem;
+  margin-top: 10rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.about-us-headline h1 {
+  color: #794ae2;
+  text-align: center;
+  margin-right: 20rem;
+  font-size: 3.125rem;
+  line-height: 1;
+}
+
+.about-us-headline p {
+  color: #666;
+  text-align: center;
+  margin-right: 20rem;
+  font-size:  1.75rem;
+  padding-top: 4rem;
+}
+
+/* Styles Container */
+.style-odd {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 19%;
+  padding-right: 19%;
+}
+
+.style-even {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 19%;
+  padding-right: 19%;
+}
+
+.style-image-right{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+
+.style-image-left{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.icon {
+  height: 9.375rem;
+}
+
+.style-description {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 50%;
+}
+
+.style-description h3 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #794ae2;
+}
+
+.style-description p {
+  font-size: 1.5rem;
+  color: #666;
+  line-height: 1.5;
+  padding-top: 2rem;
+}
+
+
+
+
+/* Map Container */
