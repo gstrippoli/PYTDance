@@ -1,0 +1,75 @@
+.faculty-main {
+  background-image: url("../Resources/Images/faculty-photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3.875rem;
+  display: flex;
+  height: 40rem;
+  width: 100%;
+  border-bottom: 10px solid #8a54ff;
+}
+
+.faculty-headline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.faculty-headline h1 {
+  width: 10rem;
+  color: rgba(174, 75, 227, 0.9);
+  display: flex;
+  font-size: 3.125rem;
+  line-height: 1;
+  margin-left: 85rem;
+  margin-top: 9rem;
+}
+
+.faculty-headline p {
+  position: relative;
+  display: flex;
+  text-align: center;
+  margin-left: 76.7rem;
+  width: 30rem;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+  color: #999;
+}
+
+.faculty-section {
+  margin: 5.625rem 7.5rem 11.25rem 28.5rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col-md-4 {
+  width: 16.875rem;
+  padding: 2rem;
+  height: 30rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col-md-4 img {
+  padding:  0 .625rem;
+}
+
+.col-md-4 h5 {
+  padding-top: 1.25rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #8a54ff;
+}
+
+.col-md-4 h6 {
+  padding-top: .625rem;
+  padding-bottom: .625rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.col-md-4 p {
+  line-height: 1.5;
+}
